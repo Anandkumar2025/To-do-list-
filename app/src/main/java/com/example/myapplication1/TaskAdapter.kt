@@ -1,5 +1,6 @@
 package com.example.myapplication1
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -32,6 +33,7 @@ class TaskAdapter(
         return TaskViewHolder(view)
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: TaskViewHolder, position: Int) {
         val task = tasks[position]
         holder.title.text = task.title
