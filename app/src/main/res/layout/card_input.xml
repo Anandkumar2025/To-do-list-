@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+
+    <EditText
+        android:id="@+id/task_title_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:autofillHints="name"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/card_title"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_gray"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/task_description_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/card_des"
+        android:autofillHints="name"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:textColorHint="@color/dark_gray"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/black"
+        android:inputType="textMultiLine"
+         />
+
+
+    <EditText
+        android:id="@+id/task_due_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/card_datetime"
+        android:focusable="false"
+        android:autofillHints="name"
+        android:padding="12dp"
+        android:textColorHint="@color/dark_gray"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/black"
+        android:focusableInTouchMode="false"
+        android:inputType="none"/>
+
+
+
+
+</LinearLayout>

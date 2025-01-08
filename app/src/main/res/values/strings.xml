@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">To do List</string>
+    <string name="title_activity_task_adapter">TaskAdapter</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="image_description">logo</string>
+    <string name="spalsh_des">Organize Your Day, Every Day!</string>
+    <string name="headertext">Welcome</string>
+    <string name="task_button">Add Task</string>
+    <string name="card_title">Enter Task Title</string>
+    <string name="card_des">Enter Task Description</string>
+    <string name="card_datetime">Due Date and time</string>
+    <string name="edit">Edit_logo</string>
+    <string name="delete">Delete_logo</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.MyApplication1" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.ToDoList" parent="Base.Theme.MyApplication1" />
+
+    <style name="Theme.Splash" parent="Base.Theme.MyApplication1" >
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+
+
+</resources>
+

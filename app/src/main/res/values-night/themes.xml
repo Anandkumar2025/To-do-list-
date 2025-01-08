@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.MyApplication1" parent="Theme.AppCompat.DayNight.NoActionBar">
+                <item name="android:windowLightStatusBar">true</item>
+                <item name="android:statusBarColor">@android:color/transparent</item>
+
+
+    </style>
+
+
+</resources>
