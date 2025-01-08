@@ -1,4 +1,4 @@
-package com.example.todolist
+package com.example.myapplication1
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,7 +9,6 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.SwitchCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.example.todolist.R
 
 class TaskAdapter(
     private val context: Context,

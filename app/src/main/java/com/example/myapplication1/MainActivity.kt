@@ -1,4 +1,4 @@
-    package com.example.todolist
+    package com.example.myapplication1
 
     import android.annotation.SuppressLint
     import android.app.DatePickerDialog
@@ -13,7 +13,6 @@
     import android.widget.EditText
     import androidx.recyclerview.widget.LinearLayoutManager
     import androidx.recyclerview.widget.RecyclerView
-    import com.example.todolist.R
     import java.util.Calendar
 
 

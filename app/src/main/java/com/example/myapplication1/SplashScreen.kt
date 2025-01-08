@@ -1,4 +1,4 @@
-package com.example.todolist
+package com.example.myapplication1
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -9,7 +9,6 @@ import android.os.Looper
 import android.view.View
 import android.view.WindowManager
 import android.view.animation.AnimationUtils
-import com.example.todolist.R
 
 
 @SuppressLint("CustomSplashScreen")
