@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.myapplication1.MainActivity">
 
+
     <LinearLayout
         android:id="@+id/header_layout"
         android:layout_width="match_parent"
@@ -15,6 +16,7 @@
         android:paddingHorizontal="12dp"
         android:paddingVertical="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
@@ -31,7 +33,6 @@
 
 
     </LinearLayout>
-
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"

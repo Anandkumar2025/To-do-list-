@@ -1,6 +1,6 @@
 <resources>
 
-    <style name="Base.Theme.MyApplication1" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Base.Theme.MyApplication1"  parent="Theme.Material3.Light.NoActionBar">
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowTranslucentStatus">true</item>
     </style>
@@ -9,8 +9,6 @@
 
     <style name="Theme.Splash" parent="Base.Theme.MyApplication1" >
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowTranslucentStatus">true</item>
-
     </style>
 
 
