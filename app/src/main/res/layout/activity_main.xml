@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_background"
         android:orientation="horizontal"
-        android:paddingHorizontal="12dp"
+        android:paddingHorizontal="15dp"
         android:paddingVertical="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
