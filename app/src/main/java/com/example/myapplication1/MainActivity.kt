@@ -8,7 +8,6 @@
     import android.widget.Button
     import android.widget.Toast
     import android.view.LayoutInflater
-    import android.view.WindowManager
     import androidx.appcompat.app.AlertDialog
     import android.widget.EditText
     import androidx.recyclerview.widget.LinearLayoutManager
@@ -26,10 +25,7 @@
 
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
-//            window.setFlags(
-//                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
-//                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
-//            )
+
             setContentView(R.layout.activity_main)
 
             recyclerView = findViewById(R.id.recyclerview)
@@ -162,7 +158,6 @@
             dialog.show()
         }
 
-
         private fun showEditTaskDialog(task: Task, position: Int) {
             val dialogView = LayoutInflater.from(this).inflate(R.layout.card_input, null)
             val titleInput = dialogView.findViewById<EditText>(R.id.task_title_input)
@@ -193,7 +188,7 @@
                             title = updatedTitle,
                             description = updatedDescription,
                             datetime = updatedDatetime,
-                            status = task.status
+                            status = true
                         )
                         val result = database.updateTask(updatedTask, updatedTask.id)
 
