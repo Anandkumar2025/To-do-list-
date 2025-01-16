@@ -216,6 +216,7 @@
             if (result > 0) {
                 taskList.removeAt(position)
                 taskAdapter.notifyItemRemoved(position)
+                taskAdapter.notifyItemRangeChanged(position, taskList.size - position)
                 Toast.makeText(this, "Deleted Successfully!", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Error deleting task", Toast.LENGTH_SHORT).show()
